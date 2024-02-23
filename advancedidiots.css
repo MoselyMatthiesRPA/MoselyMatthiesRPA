@@ -44,3 +44,12 @@ p {
                 padding: 20px;
                 background: rgb(61, 60, 60);
                 }
+                a:link {
+                    color: #FF0000;
+                  } 
+                  /* mouse over link */
+                  a:hover {
+                    color: #FF00FF;
+                }
+                  
+                 
