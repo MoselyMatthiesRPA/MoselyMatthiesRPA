@@ -46,10 +46,19 @@ p {
                 }
                 a:link {
                     color: #FF0000;
-                  } 
-                  /* mouse over link */
+                  } /* mouse over link */
                   a:hover {
                     color: #FF00FF;
-                }
-                  
-                 
+                  }
+                .divtwo { 
+                    display: flex;
+                    justify-content: center; /* Center flex items horizontally */
+                    align-items: center; /* Center flex items vertically */
+                    height: 200px; /* Specify height */
+                    flex-direction: column; /*makes the text go in a column */
+                    }
+                    .divtwo {
+                    margin: 5px;
+                    padding: 20px;
+                    background: rgb(61, 60, 60);
+                    }
