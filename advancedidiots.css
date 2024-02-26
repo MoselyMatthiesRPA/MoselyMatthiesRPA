@@ -1,64 +1,17 @@
-
-body{
-    text-align: left;
-}
 body
 {
     background-image: linear-gradient(to bottom right, rgb(45, 44, 44), rgb(0, 0, 0));
 }
-p {
-    color: white;
-    font-size: 22px;
-    }
-    li {
-        color: white;
-        font-size: 16px;
-        }
-        a {
-            color: white;
-            font-size: 16px;
-            }
-            h1, h2, h3, h4, h5, h6 {
-                color: white;
-            }
-            ul{
-                list-style-position: inside;
-                text-align: center;
-            }
-            li{
-               text-align: center; 
-            }
-            .divone{
-                color: white;
-                font-size: 12px;
-            }
-            .divtwo { 
-                display: flex;
-                justify-content: center; /* Center flex items horizontally */
-                align-items: center; /* Center flex items vertically */
-                height: 100px; /* Specify height */
-                flex-direction: column; /*makes the text go in a column */
-                }
-                .divtwo {
-                margin: 5px;
-                padding: 20px;
-                background: rgb(61, 60, 60);
-                }
-                a:link {
-                    color: #FF0000;
-                  } /* mouse over link */
-                  a:hover {
-                    color: #FF00FF;
-                  }
-                .divtwo { 
-                    display: flex;
-                    justify-content: center; /* Center flex items horizontally */
-                    align-items: center; /* Center flex items vertically */
-                    height: 200px; /* Specify height */
-                    flex-direction: column; /*makes the text go in a column */
-                    }
-                    .divtwo {
-                    margin: 5px;
-                    padding: 20px;
-                    background: rgb(61, 60, 60);
-                    }
+body{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+   text-align: center; 
+}
