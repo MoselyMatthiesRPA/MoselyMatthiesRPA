@@ -1,4 +1,4 @@
-let chance = 100;
+let chance = 50;
 let chancePercent;
 
 function showAlert() {

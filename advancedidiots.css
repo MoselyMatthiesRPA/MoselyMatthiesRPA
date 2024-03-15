@@ -3,15 +3,23 @@ body
     background-image: linear-gradient(to bottom right, rgb(45, 44, 44), rgb(0, 0, 0));
 }
 body{
-    text-align: left;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-}
-ul{
-    list-style-position: inside;
+    row-gap: 50px;
     text-align: center;
+    
+p{
+    color: white
 }
-li{
-   text-align: center; 
+.divfour {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+}
+a:link {
+    color: #FF0000;
+  }  
+  a:hover {
+    color: #FF00FF;
+  }
 }
